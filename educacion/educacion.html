@@ -39,11 +39,12 @@
       <li><h3><em>Lugar de nacimiento:</em> <a href="https://es.wikipedia.org/wiki/Reconquista_(ciudad)" target="_blank">Reconquista</a>, Santa Fe</h3></li>
     </ul>
 
-    <h2><u>
-      Información sobre estudios
-    </u></h2>
+    <fieldset>
+    <legend>
+      <h2><u>Información sobre estudios:</u></h2>
+    </legend>
 
-    <table border="1" fill="light-green" cellpadding="10" cellspacing="2">
+    <table border="1" cellpadding="10" cellspacing="2">
 			<thead>
 				<tr>
 					<th>Año</th>
@@ -86,6 +87,64 @@
 				</tr>
 			</tbody>
 		</table>
+
+    <h3>
+      Agregar estudios:
+    </h3>
+
+    <form autocomplete="on" name="Anexo de estudios">
+      <p for="Año"><b>Año:</b>
+      <select>
+        <option>1988</option>
+        <option>1989</option>
+        <option>1990</option>
+        <option>1991</option>
+        <option>1992</option>
+        <option>1993</option>
+        <option>1994</option>
+        <option>1995</option>
+        <option>1996</option>
+        <option>1997</option>
+        <option>1998</option>
+        <option>1999</option>
+        <option>2000</option>
+        <option>2001</option>
+        <option>2002</option>
+        <option>2003</option>
+        <option>2004</option>
+        <option>2005</option>
+        <option>2006</option>
+        <option>2007</option>
+        <option>2008</option>
+        <option>2009</option>
+        <option>2010</option>
+        <option>2011</option>
+        <option>2012</option>
+        <option>2013</option>
+        <option>2014</option>
+        <option>2015</option>
+        <option>2016</option>
+        <option>2017</option>
+      </select></p>
+
+      <p for="Institución"><b>Institución:</b>
+      <input type="text" id="Institución" placeholder="Nombre de la institución" required>
+      </p>
+
+
+      <p><b>Lugar:</b>
+        <textarea name="Lugar" rows="2" cols="30" placeholder="Especifique la ubicación de la institución"></textarea>
+      </p>
+
+      <p for="Terminado"><b>Lo ha finalizado?:</b>
+      SI <input type="radio" name="Terminado">
+      NO <input type="radio" name="Terminado"></p>
+
+      <input type="submit" value="Enviar">
+
+    </form>
+
+  </fieldset>
 
   </body>
 </html>
